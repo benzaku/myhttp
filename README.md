@@ -4,11 +4,13 @@ A tool to make parallel http requests to multiple urls and print corresponding M
 $ go build
 ## Run
 $ ./myhttp [-parallel n] url1 url2 url3 ...
+
 Or
+
 $ go run main.go [-parallel n] url1 url2 url3 ...
 ### Example
 ```
-myhttp $ ./myhttp -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
+./myhttp -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
 [-parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com]
 http://google.com 4f1c969a838cdf9bc6ca702a7d938674
 http://adjust.com 21aaee7adb366770ee0999ee903db700
