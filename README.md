@@ -1,4 +1,6 @@
 # myhttp tool
+This is my first Go programm ;-) 
+
 A tool to make parallel http requests to multiple urls and print corresponding MD5 hash of the reponse body. Use <-parallel n> to indicate the parallel request limit. Default limit is 10. 
 ## Compile
 $ go build
